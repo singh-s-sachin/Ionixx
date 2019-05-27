@@ -1,0 +1,21 @@
+import java.util.*;
+class ionix1
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+int n,a,t=0;
+System.out.println("Enter a number");
+n=sc.nextInt();
+a=n;
+while(n>0)
+{
+t=t*10+(n%10);
+n=n/10;
+}
+if(a==t)
+System.out.println(a + " is palindrome");
+}
+}
+
+
